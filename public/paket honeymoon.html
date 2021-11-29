@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rdytravel</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+  <!--Navbar-->
+   <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="#">
+              <img src="frontend/images/Logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler navbar-toogler-right" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navb"
+            >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav ml-auto mr-3">
+              <li class="nav-item mx-md-2">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item mx-md-2">
+                <a href="#" class="nav-link active">Paket Travel</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toogle" id="navbardrop" data-toggle="dropdown">Services</a>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Passpor</a>
+                  <a href="#" class="dropdown-item">Visa</a>
+                </div>
+              </li>
+              <li class="nav-item mx-md-2">
+                <a href="#" class="nav-link">Testimonial</a>
+              </li>
+            </ul>
+            <!--Mobile Button-->
+            <form class="form-inline d-sm-block d-md-none">
+              <button class="btn btn-login my-2 my-sm-0 px-4">
+                Masuk
+              </button>
+            </form>
+
+            <!--Desktop Button-->
+            <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+              <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                Masuk
+              </button>
+            </form>
+        </div>
+      </nav>
+   </div>
+
+   <main>
+     <section class="section-details-header"></section>
+       <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    Paket Honeymoon
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Details
+                  </li>
+                </ol>
+            </nav>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 pl-lg-0">
+                <div class="card card-details">
+                  <h1>Paket Honeymoon</h1>
+                  <div class="gallery">
+                    <div class="xzoom-container">
+                      <img class="xzoom" id="xzoom-default" src="frontend/images/bali.jpg" xoriginal="frontend/images/bali.jpg"/>
+                      <h2>Destination</h2>
+                      <div class="xzoom-thumbs">
+                        <a href="frontend/images/bali.jpg"><img class="xzoom-gallery" width="128" src="frontend/images/bali.jpg" xpreview="frontend/images/bali.jpg" /></a>
+                        <a href="frontend/images/sydney.jpg"><img class="xzoom-gallery" width="128" src="frontend/images/sydney.jpg" xpreview="frontend/images/sydney.jpg" /></a>
+                        <a href="frontend/images/londonn.jpg"><img class="xzoom-gallery" width="128" src="frontend/images/londonn.jpg" xpreview="frontend/images/londonn.jpg" /></a>
+                        <a href="frontend/images/sydney.jpg"><img class="xzoom-gallery" width="128" src="frontend/images/sydney.jpg" xpreview="frontend/images/sydney.jpg" /></a>
+                        <a href="frontend/images/londonn.jpg"><img class="xzoom-gallery" width="128" src="frontend/images/londonn.jpg" xpreview="frontend/images/londonn.jpg" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Tentang Wisata</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus possimus nulla nobis fuga eius vel accusantium cupiditate laborum harum maxime atque quod unde dicta voluptatum animi eveniet veritatis, aut reprehenderit quo nisi debitis! Voluptatem odio eligendi itaque labore consequuntur rem facilis repudiandae accusamus. Est deleniti nulla iste velit aperiam sint?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi, tempora pariatur nobis quod nihil ratione magni? Excepturi hic modi soluta, minus amet cum enim?</p>
+                  <div class="features row">
+                    <div class="col md-4">
+                      <img src="frontend/images/tiket.png" alt="Event" class="featured-image">
+                      <div class="description">
+                        <h3>Features Event</h3>
+                        <p>Lorem, ipsum dolor.</p>
+                      </div>
+                    </div>
+                    <div class="col md-4 border-left">
+                      <img src="frontend/images/bahasa.png" alt="Language" class="featured-image">
+                      <div class="description">
+                        <h3>Language</h3>
+                        <p>Bahasa Inggris</p>
+                      </div>
+                    </div>
+                    <div class="col md-4 border-left">
+                      <img src="frontend/images/Food.png" alt="Food" class="featured-image">
+                      <div class="description">
+                        <h3>Foods</h3>
+                        <p>Local Foods</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card card-details card-right">
+                  <h2>Members are going</h2>
+                  <div class="members mt-3">
+                    <img src="frontend/images/member-3.png" class="member-image mr-1">
+                    <img src="frontend/images/member-1.png" class="member-image mr-1">
+                    <img src="frontend/images/member-2.png" class="member-image mr-1">
+                    <img src="frontend/images/member-4.png" class="member-image mr-1">
+                    <img src="frontend/images/member-5.png" class="member-image mr-1">
+                  </div>
+                  <hr>
+                  <h2>Trip Information</h2>
+                  <table class="trip-information">
+                    <tr>
+                      <th width= "50%">Date of Depature</th>
+                      <td width= "50%" class="text-right">
+                        22 Mar 2020
+                      </td>
+                    </tr>
+                    <tr>
+                      <th width= "50%">Duration</th>
+                      <td width= "50%" class="text-right">
+                        3D 2N
+                      </td>
+                    </tr>
+                    <tr>
+                      <th width= "50%">Type</th>
+                      <td width= "50%" class="text-right">
+                        Open Trip
+                      </td>
+                    </tr>
+                    <tr>
+                      <th width= "50%">Price</th>
+                      <td width= "50%" class="text-right">
+                        $50.00 / person
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="join-container">
+                  <a href="#" class="btn btn-block btn-join-now py-2 ">Join Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+   </main>
+
+   <footer class="section-footer mt-5 mb-4 border-top">
+     <div class="container pt-5 pb-5">
+       <div class="row justify-content-center">
+         <div class="col-12">
+           <div class="row">
+             <div class="col-12 col-lg-3">
+               <h5>FEATURES
+                 <ul class="list-unstyled">
+                   <li><a href="#">Reviews</a></li>
+                   <li><a href="#">Community</a></li>
+                   <li><a href="#">Social Media Kit</a></li>
+                   <li><a href="#">Affiliate</a></li>
+                 </ul>
+               </h5>
+             </div>
+             <div class="col-12 col-lg-3">
+              <h5>ACCOUNT
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Reward</a></li>
+                </ul>
+              </h5>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>COMPANY
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </h5>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>GET CONNECTED
+                <ul class="list-unstyled">
+                  <li><a href="#">Malang</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">08123456789</a></li>
+                  <li><a href="#">support@rdytravel.com</a></li>
+                </ul>
+              </h5>
+            </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="container-fluid">
+       <div class="row border-top justify-content-center allign-items-center pt-4">
+         <div class="col-auto text-gray-500 font-weight-light">2021 Copyright rdytravel • All rights reserved • Made in Malang</div>
+       </div>
+     </div>
+   </footer>
+
+   <script src="frontend/libraries/retina/retina.js"></script>
+   <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+   <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+   <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+   <script>
+     $(document).ready(function() {
+       $('.xzoom, .xzoom-gallery').xzoom({
+         zoomWidth: 500,
+         title: false,
+         tint: '#333',
+         Xoffset: 15
+       });
+     });
+   </script>
+  </body>
+</html>

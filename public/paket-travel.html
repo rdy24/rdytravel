@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rdytravel</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Xzoom -->
+    <link rel="stylesheet" href="libraries/xzoom/dist/xzoom.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bolder" href="#">NAVBAR</a>
+        <button
+          class="navbar-toggler navbar-toogler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto fw-bold pe-md-4">
+            <li class="nav-item pe-md-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-md-2">
+              <a class="nav-link" href="#">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown pe-md-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item pe-md-2">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+          </ul>
+          <!--Mobile Button-->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0 px-4">Masuk</button>
+          </form>
+
+          <!--Desktop Button-->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Main -->
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item" aria-current="page">
+                    Paket Travel
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Details
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 pl-lg-0">
+                <div class="card card-details">
+                  <h1>Paket Travel</h1>
+                  <div class="gallery">
+                    <div class="xzoom-container">
+                      <img
+                        class="xzoom"
+                        id="xzoom-default"
+                        src="images/travel.jpg"
+                        xoriginal="images/travel.jpg"
+                      />
+                      <h2 class="mt-3">Destination</h2>
+                      <div class="xzoom-thumbs">
+                        <a href="images/travel.jpg"
+                          ><img
+                            class="xzoom-gallery"
+                            width="120"
+                            height="80"
+                            src="images/travel.jpg"
+                            xpreview="images/travel.jpg"
+                        /></a>
+                        <a href="images/eifel.jpg"
+                          ><img
+                            class="xzoom-gallery"
+                            width="120"
+                            src="images/eifel.jpg"
+                            xpreview="images/eifel.jpg"
+                        /></a>
+                        <a href="images/roma.jpg"
+                          ><img
+                            class="xzoom-gallery"
+                            width="120"
+                            src="images/roma.jpg"
+                            xpreview="images/roma.jpg"
+                        /></a>
+                        <a href="images/eifel.jpg"
+                          ><img
+                            class="xzoom-gallery"
+                            width="120"
+                            src="images/eifel.jpg"
+                            xpreview="images/eifel.jpg"
+                        /></a>
+                        <a href="images/roma.jpg"
+                          ><img
+                            class="xzoom-gallery"
+                            width="120"
+                            src="images/roma.jpg"
+                            xpreview="images/roma.jpg"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Tentang Wisata</h2>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Temporibus possimus nulla nobis fuga eius vel accusantium
+                    cupiditate laborum harum maxime atque quod unde dicta
+                    voluptatum animi eveniet veritatis, aut reprehenderit quo
+                    nisi debitis! Voluptatem odio eligendi itaque labore
+                    consequuntur rem facilis repudiandae accusamus. Est deleniti
+                    nulla iste velit aperiam sint?
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia sequi, tempora pariatur nobis quod nihil ratione magni?
+                    Excepturi hic modi soluta, minus amet cum enim?
+                  </p>
+                  <div class="features row">
+                    <div class="col md-4">
+                      <img
+                        src="images/tiket.png"
+                        alt="Event"
+                        class="featured-image"
+                      />
+                      <div class="description">
+                        <h3>Features Event</h3>
+                        <p>Volcano</p>
+                      </div>
+                    </div>
+                    <div class="col md-4 border-left">
+                      <img
+                        src="images/bahasa.png"
+                        alt="Language"
+                        class="featured-image"
+                      />
+                      <div class="description">
+                        <h3>Language</h3>
+                        <p>Bahasa Inggris</p>
+                      </div>
+                    </div>
+                    <div class="col md-4 border-left">
+                      <img
+                        src="images/Food.png"
+                        alt="Food"
+                        class="featured-image"
+                      />
+                      <div class="description">
+                        <h3>Foods</h3>
+                        <p>Local Foods</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card card-details card-right">
+                  <h2>Members are going</h2>
+                  <div class="members mt-3">
+                    <img src="images/member-1.png" class="member-image mr-1" />
+                    <img src="images/member-2.png" class="member-image mr-1" />
+                    <img src="images/member-3.png" class="member-image mr-1" />
+                    <img src="images/member-4.png" class="member-image mr-1" />
+                    <img src="images/member-5.png" class="member-image mr-1" />
+                  </div>
+                  <hr />
+                  <h2>Trip Information</h2>
+                  <table class="trip-information">
+                    <tr>
+                      <th width="50%">Date of Depature</th>
+                      <td width="50%" class="text-right">22 Aug 2020</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Duration</th>
+                      <td width="50%" class="text-right">5D 4N</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Type</th>
+                      <td width="50%" class="text-right">Open Trip</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Price</th>
+                      <td width="50%" class="text-right">$90.00 / person</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="join-container">
+                  <a href="#" class="btn btn-block btn-join-now py-2"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Akhir Main -->
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Social Media Kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Reward</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Malang</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">08123456789</a></li>
+                  <li><a href="#">support@rdytravel.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center allign-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2021 Copyright rdytravel • All rights reserved • Made in Malang
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="libraries/retina/retina.js"></script>
+    <script src="libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
+  </body>
+</html>
